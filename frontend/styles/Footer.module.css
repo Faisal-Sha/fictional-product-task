@@ -1,0 +1,28 @@
+.footer {
+  padding: 2.5rem clamp(1rem, 5vw, 4rem);
+  background: #0b3d2a;
+  color: #eff7f1;
+  display: grid;
+  gap: 1.5rem;
+  justify-items: center;
+  text-align: center;
+}
+
+.footer h3 {
+  margin: 0;
+}
+
+.links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.links a {
+  color: #9ae6b4;
+  font-weight: 600;
+}
+
+.copy {
+  font-size: 0.85rem;
+  color: rgba(239, 247, 241, 0.7);
+}
